@@ -22,7 +22,9 @@
   },
   "homepage": "https://github.com/ArtanisW/Neptune#readme",
   "dependencies": {
+    "config-lite": "^2.0.0",
     "ejs": "^2.5.6",
-    "express": "^4.15.3"
+    "express": "^4.15.3",
+    "mongoose": "^4.10.6"
   }
 }
