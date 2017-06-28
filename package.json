@@ -1,0 +1,28 @@
+{
+  "name": "neptune",
+  "version": "0.1.0",
+  "description": "A web demo for node.js learner.Express+MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArtanisW/Neptune.git"
+  },
+  "keywords": [
+    "node.js",
+    "express",
+    "mongodb"
+  ],
+  "author": "Vincent",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArtanisW/Neptune/issues"
+  },
+  "homepage": "https://github.com/ArtanisW/Neptune#readme",
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.15.3"
+  }
+}
