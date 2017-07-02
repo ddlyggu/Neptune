@@ -1,9 +1,14 @@
 module.exports = function (app) {
     app.get('/', function (req, res) {
-        res.redirect('/index');
+        res.render('index');
     });
     app.use('/register', require('./register'));
     app.use('/login', require('./login'));
     app.use('/logout', require('./logout'));
-    app.use('/index', require('./index'));
+    app.use('/home', require('./home'));
+    app.use(function (req, res) {
+        if (!res.headerSent) {
+            res.status(404).render('404');
+        }
+    })
 };
