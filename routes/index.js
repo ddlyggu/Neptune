@@ -6,6 +6,7 @@ module.exports = function (app) {
     app.use('/login', require('./login'));
     app.use('/logout', require('./logout'));
     app.use('/home', require('./home'));
+    app.use('/tab1', require('./tab1'));
     app.use('/tab2', require('./tab2'));
     app.use('/tab3', require('./tab3'));
     app.use(function (req, res) {
